@@ -1,11 +1,15 @@
-.navbar{
+*{
+    margin:0;
+    padding:0;
+}
+header{
     position: fixed;
     display:inline-flex;
     justify-content:space-between;
     align-items: center;
     position: fixed;
     width: 100%;
-    height: 100px;
+    height: 120px;
     top: 0px;
     right: 0px;
     background-color: rgb(38, 204, 154);
@@ -13,43 +17,103 @@
 
 .nav-buttons{
    display:inline-block;
-   padding: 20px;
+   padding-left:30px;
    text-align:center;
-   border-style: solid;
-   text-transform: uppercase;
-   font-family: Arial, Helvetica, sans-serif;
-   width: 220px;
-  
-   
+   text-transform: uppercase; 
+   font-size:20px;
 }
     
 #title{
-   border-style: solid;
    text-transform: uppercase;
-   text-align: center;
    padding-right:20px;
    padding-left:20px;
    font-family: 'Monoton', cursive;
-   font-size: 50px;
+   font-size: 45px;
    font-weight: 100;
    word-spacing: 20px;
-      color:yellow;
+   color:magenta;
 }
 
 #about{
-    color:blue;
-    padding: 10px;
+    font-family: sans-serif;
+    color:magenta;
+    padding:2px 10px;
+    text-decoration: none;
+    border-right: 2px solid magenta;
 }
 #interests{
-    color: blue;
-    padding: 10px;
-    
+    font-family: sans-serif;
+    color:magenta;
+    text-decoration: none; 
+    padding:5px 5px;
 }
 .icon-bar{
-    padding-right:100px;
+    padding-right:50px;
 }
 
 i{
     padding-right: 5px;
     color: magenta;
 }
+
+
+
+div.banner{
+    margin-top:100px;
+     padding:140px 0px 125px 0px;
+     background-color: mediumorchid;
+     width:100%;
+     text-align:center; 
+}
+#aboutme{
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#descript{
+    padding-bottom: 50px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.about-content{
+    display:inline-flex;
+    justify-content:space-between;
+    align-items: center;
+    background: red;
+    padding-bottom: 50px;
+    
+}
+
+.my-image{
+    margin-right:50px;  
+}
+.my-description{
+    margin: 50px;
+    text-align: justify;
+    margin-right:100px;
+    font-family: sans-serif;
+    font-size: 18px;
+    
+}
+
+footer{
+    
+    bottom:0;
+    width:100%;
+    height:20px;
+    position: fixed;
+    display:flex;
+    background-color: rgba(108, 119, 116, 0.8);
+    height:50px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
