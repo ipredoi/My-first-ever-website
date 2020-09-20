@@ -61,23 +61,27 @@ i{
 div.banner{
     margin-top:100px;
      padding:140px 0px 125px 0px;
-     background-color: mediumorchid;
+     background-image: url("backgroubd.jpeg");
+     background-size: cover;
      width:100%;
      text-align:center; 
 }
 #aboutme{
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     text-transform: uppercase;
     font-family: sans-serif;
     font-size: 50px;
     font-weight: bolder;
+    color: white;
 }
 
 #descript{
     padding-bottom: 50px;
+    padding-left:280px;
     font-family: sans-serif;
     font-size: 20px;
     font-weight: bolder;
+    color:white;
 
 }
 
@@ -85,7 +89,7 @@ div.banner{
     display:inline-flex;
     justify-content:space-between;
     align-items: center;
-    background: #636e72;
+    background:linear-gradient(to top,#334d50, #cbcaa5);
     padding-bottom: 50px;
     
 }
@@ -99,7 +103,7 @@ div.banner{
     margin-right:100px;
     font-family: sans-serif;
     font-size: 18px;
-    color:magenta;
+    color:white;
     text-decoration: none;
 }
 
